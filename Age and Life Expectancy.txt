@@ -1,1 +1,1 @@
-SELECT life expectancy,  population from country where code= "ARG";
+SELECT lifeexpectancy, population FROM country WHERE code= "ARG";
