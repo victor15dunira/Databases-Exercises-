@@ -1,0 +1,1 @@
+SELECT AVG(Population) FROM city WHERE Population=(Select code FROM Population WHERE Name='ARG');

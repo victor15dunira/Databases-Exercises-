@@ -1,0 +1,1 @@
+SELECT COUNT(CountryCode) FROM city WHERE CountryCode=(SELECT Code FROM country WHERE Name='United States');
